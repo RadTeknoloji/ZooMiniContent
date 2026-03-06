@@ -24,6 +24,24 @@ if [[ ! -d "$animals_dir" || ! -d "$images_dir" || ! -d "$audio_dir" ]]; then
   exit 1
 fi
 
+file_size_bytes() {
+  local path="$1"
+  if stat -f%z "$path" >/dev/null 2>&1; then
+    stat -f%z "$path"
+  else
+    stat -c%s "$path"
+  fi
+}
+
+sha256_file() {
+  local path="$1"
+  if command -v shasum >/dev/null 2>&1; then
+    shasum -a 256 "$path" | awk '{print $1}'
+  else
+    sha256sum "$path" | awk '{print $1}'
+  fi
+}
+
 tmp_dir="$(mktemp -d)"
 trap 'rm -rf "$tmp_dir"' EXIT
 
@@ -63,8 +81,8 @@ rm -f "$output_zip"
   zip -qr "$output_zip" .
 )
 
-size_bytes="$(stat -f%z "$output_zip")"
-sha256="$(shasum -a 256 "$output_zip" | awk '{print $1}')"
+size_bytes="$(file_size_bytes "$output_zip")"
+sha256="$(sha256_file "$output_zip")"
 
 echo "Package built:"
 echo "  version: $version"
