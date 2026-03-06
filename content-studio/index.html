@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZooMini Content Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="bg-shape bg-shape-a"></div>
+  <div class="bg-shape bg-shape-b"></div>
+  <div class="bg-shape bg-shape-c"></div>
+
+  <header class="hero">
+    <div>
+      <p class="eyebrow">ZooMini</p>
+      <h1>Content Studio</h1>
+      <p class="subtitle">Hayvan içeriklerini web üzerinden düzenle, doğrula ve `animals_index.json` olarak dışa aktar.</p>
+    </div>
+    <div class="hero-actions">
+      <button id="btn-import-json" class="btn btn-soft">JSON İçe Aktar</button>
+      <button id="btn-export-json" class="btn btn-primary">JSON Dışa Aktar</button>
+      <button id="btn-validate" class="btn btn-soft">Doğrula</button>
+      <input id="input-json-file" type="file" accept=".json,application/json" hidden>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="panel list-panel">
+      <div class="panel-header">
+        <h2>Hayvanlar</h2>
+        <button id="btn-add-animal" class="btn btn-mini">+ Yeni</button>
+      </div>
+      <input id="search" class="search" placeholder="Ara: id, isim, emoji">
+      <div id="animal-list" class="animal-list"></div>
+      <div class="list-footer">
+        <button id="btn-duplicate-animal" class="btn btn-soft">Kopyala</button>
+        <button id="btn-delete-animal" class="btn btn-danger">Sil</button>
+      </div>
+    </aside>
+
+    <section class="panel editor-panel">
+      <div class="panel-header">
+        <h2>Düzenleyici</h2>
+        <p id="current-animal-label" class="muted">Seçili hayvan yok</p>
+      </div>
+
+      <div id="editor-empty" class="empty-state">
+        <p>Başlamak için soldan bir hayvan seç veya yeni hayvan ekle.</p>
+      </div>
+
+      <div id="editor" class="editor hidden">
+        <div class="section">
+          <h3>Temel Bilgi</h3>
+          <div class="grid two">
+            <label>ID
+              <input id="field-id" placeholder="elephant">
+            </label>
+            <label>Emoji
+              <input id="field-emoji" placeholder="🐘">
+            </label>
+            <label>imageName
+              <input id="field-image-name" placeholder="animal_elephant">
+            </label>
+            <label>soundFile
+              <input id="field-sound-file" placeholder="elephant_real.mp3">
+            </label>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3>Boyut Kıyas Görselleri (3)</h3>
+          <div class="grid three">
+            <label>Görsel 1
+              <input id="field-size-1" placeholder="size_elephant_1">
+            </label>
+            <label>Görsel 2
+              <input id="field-size-2" placeholder="size_elephant_2">
+            </label>
+            <label>Görsel 3
+              <input id="field-size-3" placeholder="size_elephant_3">
+            </label>
+          </div>
+        </div>
+
+        <div class="section">
+          <div class="section-head-inline">
+            <h3>Dil İçeriği</h3>
+            <select id="field-language-picker"></select>
+          </div>
+
+          <div class="grid one">
+            <label>localizedName
+              <input id="field-localized-name" placeholder="Elephant">
+            </label>
+            <label>age_2_4 fact
+              <textarea id="field-fact-2-4" rows="3" placeholder="Küçük yaş için metin"></textarea>
+            </label>
+            <label>age_5_7 fact
+              <textarea id="field-fact-5-7" rows="3" placeholder="Orta yaş için metin"></textarea>
+            </label>
+            <label>age_8_10 fact
+              <textarea id="field-fact-8-10" rows="4" placeholder="Büyük yaş için metin"></textarea>
+            </label>
+          </div>
+
+          <div class="inline-actions">
+            <button id="btn-copy-en-to-missing" class="btn btn-soft">EN metinleri boş dillere kopyala</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="panel diagnostics">
+    <div class="panel-header">
+      <h2>Doğrulama Sonuçları</h2>
+      <p id="validation-summary" class="muted">Henüz doğrulanmadı.</p>
+    </div>
+    <pre id="validation-output" class="output"></pre>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>

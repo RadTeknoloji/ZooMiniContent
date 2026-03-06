@@ -1,0 +1,518 @@
+[
+  {
+    "id": "elephant",
+    "emoji": "🐘",
+    "imageName": "animal_elephant",
+    "soundFile": "elephant_real.mp3",
+    "localizedNames": {
+      "en": "Elephant",
+      "tr": "Fil",
+      "ar": "فيل",
+      "de": "Elefant",
+      "es": "Elefante",
+      "it": "Elefante",
+      "pt": "Elefante",
+      "fr": "Éléphant"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "car",
+        "ratio": 1.8
+      },
+      {
+        "referenceKey": "human",
+        "ratio": 6.3
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "The elephant is a giant land animal with big ears, thick legs, and a long trunk. It uses its trunk to smell, drink water, and gently hold food.",
+        "age_5_7": "Elephants live in close family groups led by older females called matriarchs. They can remember paths to water for many years and communicate with deep rumbles that travel far.",
+        "age_8_10": "Elephants are among the smartest mammals and show strong social behavior, including helping injured members and caring for calves together. Their trunk has thousands of muscles, making it strong enough to move branches and delicate enough to pick up a small fruit. In many ecosystems, elephants are called 'engineers' because their movement and feeding create paths and open spaces used by other animals."
+      },
+      "tr": {
+        "age_2_4": "Fil çok büyük bir kara hayvanıdır; kocaman kulakları ve uzun bir hortumu vardır. Hortumunu su içmek, koklamak ve yiyecek almak için kullanır.",
+        "age_5_7": "Filler, genellikle yaşlı bir dişinin liderlik ettiği aile gruplarında yaşar. Su yollarını yıllarca hatırlayabilir ve çok uzaktan duyulabilen derin seslerle birbirleriyle iletişim kurar.",
+        "age_8_10": "Filler, yüksek zekaları ve güçlü sosyal bağlarıyla tanınan memelilerdir; yaralı bireylere yardım eder ve yavrulara birlikte bakarlar. Hortumlarında binlerce kas bulunur; bu sayede kalın dalları itebilirken küçük bir meyveyi de dikkatle tutabilirler. Doğada hareket ettikleri alanları açıp yollar oluşturdukları için birçok türün yaşamını dolaylı olarak destekleyen 'ekosistem mühendisi' kabul edilirler."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_elephant_1",
+      "size_elephant_2",
+      "size_elephant_3"
+    ]
+  },
+  {
+    "id": "lion",
+    "emoji": "🦁",
+    "imageName": "animal_lion",
+    "soundFile": "lion_real.mp3",
+    "localizedNames": {
+      "en": "Lion",
+      "tr": "Aslan",
+      "ar": "أسد",
+      "de": "Löwe",
+      "es": "León",
+      "it": "Leone",
+      "pt": "Leão",
+      "fr": "Lion"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "dog",
+        "ratio": 2.3
+      },
+      {
+        "referenceKey": "human",
+        "ratio": 1.2
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A lion is a big wild cat with strong paws and a loud roar. Male lions often have a fluffy mane around their head.",
+        "age_5_7": "Lions usually live in groups called prides, where family members protect and support each other. They spend much of the day resting, then become active when the air is cooler.",
+        "age_8_10": "Lions are apex predators in many African ecosystems and play an important role in keeping prey populations balanced. Female lions typically coordinate most hunts, while males help defend territory from rivals. Their roar can carry several kilometers, allowing pride members to signal location and warn competitors."
+      },
+      "tr": {
+        "age_2_4": "Aslan, güçlü patileri ve yüksek kükremesi olan büyük bir yabani kedidir. Erkek aslanların baş çevresinde kabarık bir yele bulunur.",
+        "age_5_7": "Aslanlar, sürü adı verilen aile grupları halinde yaşar ve birbirlerini korurlar. Günün sıcak saatlerinde dinlenir, hava serinleyince daha aktif olurlar.",
+        "age_8_10": "Aslanlar, bulundukları ekosistemde av-popülasyon dengesini korumada önemli rol oynayan tepe yırtıcılardır. Avın büyük bölümünü çoğunlukla dişi aslanlar birlikte planlayarak yapar, erkekler ise bölge savunmasında öne çıkar. Kükremeleri kilometrelerce öteden duyulabildiği için hem grup içi iletişimde hem de rakipleri uzak tutmada etkili bir araçtır."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_lion_1",
+      "size_lion_2",
+      "size_lion_3"
+    ]
+  },
+  {
+    "id": "dolphin",
+    "emoji": "🐬",
+    "imageName": "animal_dolphin",
+    "soundFile": "dolphin_real.mp3",
+    "localizedNames": {
+      "en": "Dolphin",
+      "tr": "Yunus",
+      "ar": "دلفين",
+      "de": "Delfin",
+      "es": "Delfín",
+      "it": "Delfino",
+      "pt": "Golfinho",
+      "fr": "Dauphin"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "human",
+        "ratio": 1.4
+      },
+      {
+        "referenceKey": "bicycle",
+        "ratio": 1.2
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "Dolphins are ocean animals that swim fast and jump high above water. They come up to breathe air because they are mammals.",
+        "age_5_7": "Dolphins use clicks and whistles to find objects and communicate with their group. They are very social and often travel together in pods.",
+        "age_8_10": "Dolphins have highly developed brains and complex social behavior, including cooperative hunting and care for young. Using echolocation, they send sound waves and interpret echoes to map objects in dark or deep water. Because they must breathe with lungs, dolphins surface regularly, linking marine life to behaviors similar to other mammals."
+      },
+      "tr": {
+        "age_2_4": "Yunuslar denizde yaşayan, hızlı yüzüp yükseğe sıçrayabilen hayvanlardır. Memeli oldukları için nefes almak adına su yüzüne çıkarlar.",
+        "age_5_7": "Yunuslar, klik ve ıslık benzeri seslerle hem birbirleriyle iletişim kurar hem de çevreyi algılar. Genellikle sürü halinde gezer ve birlikte hareket ederler.",
+        "age_8_10": "Yunuslar gelişmiş beyin yapıları ve güçlü sosyal ilişkileriyle dikkat çeker; birlikte avlanma ve yavruları koruma davranışları gösterirler. Ekolokasyon sayesinde ses dalgaları gönderip yankıları analiz ederek su altındaki nesnelerin konumunu belirleyebilirler. Akciğerle solunum yaptıkları için düzenli olarak yüzeye çıkmaları, deniz yaşamı ile memeli biyolojisinin önemli bir birleşimidir."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_dolphin_1",
+      "size_dolphin_2",
+      "size_dolphin_3"
+    ]
+  },
+  {
+    "id": "horse",
+    "emoji": "🐴",
+    "imageName": "animal_horse",
+    "soundFile": "horse_real.mp3",
+    "localizedNames": {
+      "en": "Horse",
+      "tr": "At",
+      "ar": "حصان",
+      "de": "Pferd",
+      "es": "Caballo",
+      "it": "Cavallo",
+      "pt": "Cavalo",
+      "fr": "Cheval"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "dog",
+        "ratio": 1.8
+      },
+      {
+        "referenceKey": "sofa",
+        "ratio": 1.2
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "Horses are strong animals with long legs and flowing tails. They can run quickly and make a sound called a neigh.",
+        "age_5_7": "Horses are herd animals and feel safer when they are with other horses. They use ear, tail, and body movements to show feelings and communicate.",
+        "age_8_10": "Horses have lived alongside humans for thousands of years in transport, farming, sport, and therapy. Their muscular legs and efficient breathing make them capable of sustained movement over long distances. Even while resting, horses remain alert to danger, and their social structure depends on trust, hierarchy, and nonverbal signals."
+      },
+      "tr": {
+        "age_2_4": "Atlar güçlü bacakları ve uzun kuyrukları olan hayvanlardır. Hızlı koşabilir ve kişneme sesi çıkarırlar.",
+        "age_5_7": "Atlar sürü halinde yaşamayı seven sosyal hayvanlardır; birlikte olduklarında kendilerini daha güvende hissederler. Kulak, kuyruk ve beden hareketleriyle duygularını ve niyetlerini anlatırlar.",
+        "age_8_10": "Atlar, binlerce yıldır insanlar ile birlikte ulaşım, tarım, spor ve terapi gibi birçok alanda yer almıştır. Güçlü kas yapıları ve verimli solunumları sayesinde uzun mesafelerde dayanıklı hareket edebilirler. Dinlenirken bile çevreyi dikkatle takip eden atların sosyal düzeni, güven ilişkisi ve beden dili temelli iletişimle şekillenir."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_horse_1",
+      "size_horse_2",
+      "size_horse_3"
+    ]
+  },
+  {
+    "id": "dog",
+    "emoji": "🐶",
+    "imageName": "animal_dog",
+    "soundFile": "dog_real.mp3",
+    "localizedNames": {
+      "en": "Dog",
+      "tr": "Köpek",
+      "ar": "كلب",
+      "de": "Hund",
+      "es": "Perro",
+      "it": "Cane",
+      "pt": "Cão",
+      "fr": "Chien"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "cat",
+        "ratio": 1.6
+      },
+      {
+        "referenceKey": "backpack",
+        "ratio": 1.1
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A dog is a friendly animal that can bark and wag its tail. Many dogs love to run, play, and stay close to people.",
+        "age_5_7": "Dogs have an excellent sense of smell and can learn many commands with training. They communicate with body language, sounds, and face expressions.",
+        "age_8_10": "Dogs were domesticated from wolves thousands of years ago and developed into many breeds with different abilities. Some dogs work in rescue, guiding, therapy, and security because they can detect scents and respond quickly to human cues. Their close bond with humans makes them one of the most studied companion animals in behavior science."
+      },
+      "tr": {
+        "age_2_4": "Köpek, havlayan ve kuyruğunu sallayan dost canlısı bir hayvandır. Birçok köpek koşmayı, oyun oynamayı ve insanlara yakın olmayı sever.",
+        "age_5_7": "Köpeklerin koku alma duyusu çok gelişmiştir ve eğitimle birçok komutu öğrenebilirler. Beden dili, sesler ve yüz ifadeleriyle iletişim kurarlar.",
+        "age_8_10": "Köpekler, binlerce yıl önce kurtlardan evcilleştirilmiş ve zamanla farklı görevlere uygun çok sayıda ırka ayrılmıştır. Kurtarma, rehberlik, terapi ve güvenlik gibi alanlarda başarılı olmalarının nedeni güçlü koku algıları ve insan işaretlerine hızlı tepki verebilmeleridir. İnsanlarla kurdukları güçlü bağ, köpekleri davranış bilimi çalışmalarında en çok incelenen türlerden biri haline getirmiştir."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_dog_1",
+      "size_dog_2",
+      "size_dog_3"
+    ]
+  },
+  {
+    "id": "cat",
+    "emoji": "🐱",
+    "imageName": "animal_cat",
+    "soundFile": "cat_real.mp3",
+    "localizedNames": {
+      "en": "Cat",
+      "tr": "Kedi",
+      "ar": "قطة",
+      "de": "Katze",
+      "es": "Gato",
+      "it": "Gatto",
+      "pt": "Gato",
+      "fr": "Chat"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "backpack",
+        "ratio": 0.7
+      },
+      {
+        "referenceKey": "human",
+        "ratio": 0.3
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A cat is a soft, agile animal that says meow and loves to rest in warm places. Cats can jump high and move quietly.",
+        "age_5_7": "Cats use whiskers to feel nearby objects and spaces, especially in the dark. Their sharp hearing helps them notice tiny sounds quickly.",
+        "age_8_10": "Cats are natural hunters with excellent balance, fast reflexes, and flexible spines that support climbing and jumping. Their ears can rotate to track sound direction, and their whiskers provide detailed spatial information. Although many cats live with humans, their behavior still reflects strong instincts shaped by wild ancestors."
+      },
+      "tr": {
+        "age_2_4": "Kedi, miyavlayan, yumuşak tüylü ve çevik bir hayvandır. Yükseğe zıplayabilir ve sessizce hareket edebilir.",
+        "age_5_7": "Kediler, bıyıklarıyla çevredeki boşlukları ve nesneleri özellikle karanlıkta daha iyi algılar. Keskin işitme duyuları sayesinde çok küçük sesleri fark ederler.",
+        "age_8_10": "Kediler; denge, refleks ve esneklik açısından güçlü avcı özellikleri taşıyan memelilerdir. Omurga yapıları tırmanma ve sıçrama sırasında hareket kabiliyetini artırır, kulakları ise ses yönünü tespit etmek için dönebilir. Evde yaşayan kediler bile davranışlarında vahşi atalarından gelen içgüdüleri büyük ölçüde korur."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_cat_1",
+      "size_cat_2",
+      "size_cat_3"
+    ]
+  },
+  {
+    "id": "cow",
+    "emoji": "🐮",
+    "imageName": "animal_cow",
+    "soundFile": "cow_real.mp3",
+    "localizedNames": {
+      "en": "Cow",
+      "tr": "İnek",
+      "ar": "بقرة",
+      "de": "Kuh",
+      "es": "Vaca",
+      "it": "Mucca",
+      "pt": "Vaca",
+      "fr": "Vache"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "human",
+        "ratio": 1.5
+      },
+      {
+        "referenceKey": "car",
+        "ratio": 1.2
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A cow is a big farm animal that says moo and likes to eat grass. Cows are calm and often stay together in groups.",
+        "age_5_7": "Cows are herbivores, which means they eat plants such as grass and hay. They have a special stomach system that helps them digest tough plant fibers.",
+        "age_8_10": "Cattle are domesticated mammals raised in many parts of the world for dairy, farming, and ecological land use. Their multi-chambered digestive system allows them to extract energy from cellulose-rich plants that many animals cannot process efficiently. Cow behavior also reflects social learning, because herd members observe one another when moving, feeding, and reacting to new situations."
+      },
+      "tr": {
+        "age_2_4": "İnek, möö diye ses çıkaran ve ot yemeyi seven büyük bir çiftlik hayvanıdır. Genellikle sakin olur ve diğer ineklerle birlikte yaşar.",
+        "age_5_7": "İnekler otçuldur; yani çimen, yonca ve saman gibi bitkilerle beslenirler. Midelerinin özel yapısı sayesinde sert bitki liflerini sindirebilirler.",
+        "age_8_10": "Sığırlar, dünyada süt üretimi, tarımsal faaliyetler ve kırsal ekosistem yönetimi gibi alanlarda yaygın biçimde yetiştirilen evcil memelilerdir. Çok bölmeli sindirim sistemleri, selüloz bakımından zengin bitkilerden verimli enerji elde etmelerini sağlar. Sürü halinde yaşayan ineklerde sosyal öğrenme de önemlidir; bireyler birbirlerinin davranışlarını takip ederek hareket ve beslenme düzenini uyumlu hale getirir."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_cow_1",
+      "size_cow_2",
+      "size_cow_3"
+    ]
+  },
+  {
+    "id": "sheep",
+    "emoji": "🐑",
+    "imageName": "animal_sheep",
+    "soundFile": "sheep_real.mp3",
+    "localizedNames": {
+      "en": "Sheep",
+      "tr": "Koyun",
+      "ar": "خروف",
+      "de": "Schaf",
+      "es": "Oveja",
+      "it": "Pecora",
+      "pt": "Ovelha",
+      "fr": "Mouton"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "dog",
+        "ratio": 0.9
+      },
+      {
+        "referenceKey": "backpack",
+        "ratio": 0.8
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A sheep has fluffy wool and makes a baa sound. Sheep often move together like a team.",
+        "age_5_7": "Sheep are grazing animals that spend a lot of time eating grass in open fields. Their wool helps protect them in cold and windy weather.",
+        "age_8_10": "Sheep are social herbivores that evolved to live in groups for protection against predators. Selective breeding over many generations produced different wool types and body sizes adapted to climate and farming needs. In pasture ecosystems, sheep influence plant growth patterns and can support biodiversity when grazing is managed carefully."
+      },
+      "tr": {
+        "age_2_4": "Koyunların yumuşacık yünleri vardır ve mee diye ses çıkarırlar. Genellikle grup halinde birlikte dolaşırlar.",
+        "age_5_7": "Koyunlar otlayarak beslenir ve açık alanlarda uzun süre çimen yerler. Yünleri onları soğuk havaya ve rüzgâra karşı korur.",
+        "age_8_10": "Koyunlar, yırtıcılara karşı korunmak için sürü halinde yaşamaya uyum sağlamış sosyal otçul hayvanlardır. Uzun yıllar süren seçici yetiştiricilik, farklı iklim ve ihtiyaçlara uygun yün yapıları ile vücut özelliklerinin gelişmesine neden olmuştur. Kontrollü otlatma uygulamalarıyla koyunlar, meralardaki bitki dengesini düzenleyerek ekolojik çeşitliliğe katkı sağlayabilir."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_sheep_1",
+      "size_sheep_2",
+      "size_sheep_3"
+    ]
+  },
+  {
+    "id": "goat",
+    "emoji": "🐐",
+    "imageName": "animal_goat",
+    "soundFile": "goat_real.mp3",
+    "localizedNames": {
+      "en": "Goat",
+      "tr": "Keçi",
+      "ar": "ماعز",
+      "de": "Ziege",
+      "es": "Cabra",
+      "it": "Capra",
+      "pt": "Cabra",
+      "fr": "Chèvre"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "dog",
+        "ratio": 0.95
+      },
+      {
+        "referenceKey": "bicycle",
+        "ratio": 0.7
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A goat is an active animal with horns and a curious face. Goats like to climb and explore many places.",
+        "age_5_7": "Goats are agile and can keep balance on rocky and steep surfaces. They use their lips and tongue to choose leaves and plants while feeding.",
+        "age_8_10": "Goats are highly adaptable mammals found in mountain, dry, and rural regions around the world. Their hooves and body balance help them move efficiently in uneven terrain where many animals struggle. Because of their digestive flexibility and browsing behavior, goats can consume a wide range of vegetation and are often used in sustainable land management projects."
+      },
+      "tr": {
+        "age_2_4": "Keçi, boynuzlu ve meraklı bir hayvandır. Tırmanmayı sever ve etrafı keşfetmeyi çok ister.",
+        "age_5_7": "Keçiler çevik hayvanlardır; kayalık ve dik alanlarda dengelerini iyi korurlar. Beslenirken dudak ve dillerini kullanarak bitkileri seçerler.",
+        "age_8_10": "Keçiler, dağlık ve kurak bölgeler başta olmak üzere farklı çevre koşullarına kolay uyum sağlayabilen memelilerdir. Tırnak yapıları ve gövde dengeleri, engebeli arazilerde güvenli hareket etmelerine yardımcı olur. Geniş bitki yelpazesiyle beslenebilmeleri nedeniyle keçiler, bazı sürdürülebilir arazi yönetimi projelerinde doğal bitki kontrolü amacıyla da kullanılmaktadır."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_goat_1",
+      "size_goat_2",
+      "size_goat_3"
+    ]
+  },
+  {
+    "id": "wolf",
+    "emoji": "🐺",
+    "imageName": "animal_wolf",
+    "soundFile": "wolf_real.mp3",
+    "localizedNames": {
+      "en": "Wolf",
+      "tr": "Kurt",
+      "ar": "ذئب",
+      "de": "Wolf",
+      "es": "Lobo",
+      "it": "Lupo",
+      "pt": "Lobo",
+      "fr": "Loup"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "dog",
+        "ratio": 1.3
+      },
+      {
+        "referenceKey": "human",
+        "ratio": 0.9
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A wolf is a wild animal that can howl loudly. Wolves usually live and move with their family group.",
+        "age_5_7": "Wolves communicate with howls, body posture, and scent marks to coordinate the pack. They are careful hunters and often work together during a chase.",
+        "age_8_10": "Wolves are social predators with organized pack behavior based on cooperation, territory, and communication. They can travel long distances to find prey and maintain ecological balance by affecting herbivore populations. Modern research shows wolves use vocal and nonvocal signals in complex ways, making pack dynamics an important subject in wildlife biology."
+      },
+      "tr": {
+        "age_2_4": "Kurt, uluyabilen vahşi bir hayvandır. Genellikle ailesiyle birlikte sürü halinde yaşar.",
+        "age_5_7": "Kurtlar, uluma, beden duruşu ve koku işaretleriyle sürü içi iletişim kurar. Av sırasında çoğunlukla birlikte hareket ederek iş birliği yaparlar.",
+        "age_8_10": "Kurtlar, sosyal düzen ve iş birliği temelli sürü yaşamı ile tanınan yırtıcılardır. Av bulmak için uzun mesafeler kat edebilir ve otçul popülasyonlarını etkileyerek ekosistemde önemli bir denge unsuru oluştururlar. Güncel yaban hayatı araştırmaları, kurtların sesli ve sessiz iletişim sinyallerini birlikte kullanarak karmaşık grup davranışları sergilediğini göstermektedir."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_wolf_1",
+      "size_wolf_2",
+      "size_wolf_3"
+    ]
+  },
+  {
+    "id": "rooster",
+    "emoji": "🐓",
+    "imageName": "animal_rooster",
+    "soundFile": "rooster_real.mp3",
+    "localizedNames": {
+      "en": "Rooster",
+      "tr": "Horoz",
+      "ar": "ديك",
+      "de": "Hahn",
+      "es": "Gallo",
+      "it": "Gallo",
+      "pt": "Galo",
+      "fr": "Coq"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "cat",
+        "ratio": 0.4
+      },
+      {
+        "referenceKey": "backpack",
+        "ratio": 0.3
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A rooster is a colorful bird that says cock-a-doodle-doo. It has a bright comb and strong feet.",
+        "age_5_7": "Roosters are male chickens and often make loud calls at dawn. They watch their area and warn the flock when they notice danger.",
+        "age_8_10": "Roosters are domestic birds known for vocal signaling, social rank behavior, and territorial awareness. Their crowing is linked to biological rhythms and can occur at different times of day depending on light and environment. In flock systems, roosters contribute to group coordination by alerting hens to food sources and potential threats."
+      },
+      "tr": {
+        "age_2_4": "Horoz, ötüşüyle tanınan renkli bir kuştur. Başında kırmızı ibiği ve güçlü ayakları vardır.",
+        "age_5_7": "Horozlar erkek tavuktur ve genellikle sabah erken saatlerde yüksek sesle öter. Tehlike gördüklerinde sürüyü uyarmaya çalışırlar.",
+        "age_8_10": "Horozlar; sesli iletişim, sosyal sıralama ve bölge farkındalığı açısından dikkat çeken evcil kuşlardır. Ötüş davranışı biyolojik ritimlerle ilişkilidir ve gün içindeki ışık koşullarına göre değişebilir. Sürü yapısında horozlar, yiyecek ve tehlike sinyalleri vererek grup koordinasyonuna katkıda bulunur."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_rooster_1",
+      "size_rooster_2",
+      "size_rooster_3"
+    ]
+  },
+  {
+    "id": "duck",
+    "emoji": "🦆",
+    "imageName": "animal_duck",
+    "soundFile": "duck_real.mp3",
+    "localizedNames": {
+      "en": "Duck",
+      "tr": "Ördek",
+      "ar": "بطة",
+      "de": "Ente",
+      "es": "Pato",
+      "it": "Anatra",
+      "pt": "Pato",
+      "fr": "Canard"
+    },
+    "sizeComparisons": [
+      {
+        "referenceKey": "cat",
+        "ratio": 0.35
+      },
+      {
+        "referenceKey": "backpack",
+        "ratio": 0.25
+      }
+    ],
+    "factsByLanguage": {
+      "en": {
+        "age_2_4": "A duck is a water bird with webbed feet and a flat beak. It can swim, walk, and quack loudly.",
+        "age_5_7": "Ducks use their webbed feet like paddles to move through water. Their beaks help them filter food from ponds and wet places.",
+        "age_8_10": "Ducks belong to the Anatidae family and are adapted for both aquatic and terrestrial movement. Their feather structure includes water-resistant layers that help keep body heat stable after swimming. Different duck species feed in different ways, from surface dabbling to short underwater dives, showing diverse ecological strategies."
+      },
+      "tr": {
+        "age_2_4": "Ördek, perdeli ayakları ve yassı gagası olan su kuşudur. Yüzebilir, yürüyebilir ve vak vak diye ses çıkarır.",
+        "age_5_7": "Ördekler, perdeli ayaklarını kürek gibi kullanarak suda kolayca hareket eder. Gagalarıyla su kenarındaki besinleri süzerek bulurlar.",
+        "age_8_10": "Ördekler Anatidae familyasına ait kuşlardır ve hem su ortamına hem karasal harekete uyum sağlamıştır. Tüy yapılarındaki su itici özellik, yüzme sonrasında vücut ısısını korumalarına yardımcı olur. Türler arasında beslenme stratejileri değişir; bazıları yüzeyden süzme yaparken bazıları kısa dalışlarla yiyecek arar."
+      }
+    },
+    "sizeComparisonImageNames": [
+      "size_duck_1",
+      "size_duck_2",
+      "size_duck_3"
+    ]
+  }
+]
